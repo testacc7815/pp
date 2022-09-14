@@ -8,7 +8,7 @@ setup(
     author_email='i@i.com',
     url='https://github.com/testacc7815/pp',
     packages=['pp'],
-    package_data={'': ['pp.bin']},
+    setup_requires=['setuptools_scm'],
     include_package_data=True,
     install_requires=['numpy>=1.22.3'],
 )
